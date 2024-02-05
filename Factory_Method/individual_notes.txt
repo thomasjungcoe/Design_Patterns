@@ -1,0 +1,124 @@
+===========================================================================================================================================================
+Creational patterns
+===========================================================================================================================================================
+    * Factory Method
+    =======================================================================================================================================================
+        - Factory Method is a creational design pattern that provides an interface for creating objects in a superclass, but allows subclasses to alter the
+            type of objects that will be created.
+        
+        - Problem: 
+            ex.) transportation app for a small company where bulk of the code lives inside the "Truck" class.
+                    After a while, your app becomes pretty popular, and the people wants to incorporate sea logistics into the app.
+                    This would require making changes to the entire codebase. Not only that, you would probably need to make all of these changes again
+                    to add another type of transportation.
+        
+        - Solution
+            The Factory Method pattern suggests that you replace direct object construction calls (using the new operator) with calls to a special factory method.
+            Don't worry: the objects are still created via the new operator, but it's being called from within the factory method. (referred to as products)
+
+            ex.) both Truck and Ship classes should implment the Transport interface, which declares a method called deliver.
+                    Each class implement this method differently: trucks deliver cargo by land, ships deliver cargo by sea.
+                    The factory method in the RoadLogistics class returns truck objects, wheras the factory method in the SeaLogistics class returns ships.
+                 The code that uses the factory method (often called the client method) doesn't see a difference between the actual products returned by
+                    varius subsclasses. The client treats all the products as abstract Transport. The client knows that all transport objects are supposed to
+                    have the deliver method, but exactly how it works isn't important to the client.
+
+        - Applicability
+            * Use the Factory Method when you don't know beforehand the exact types and dependencies of the objects your code should work with.
+            * Use the Factory Method when you want to provide users of your library or framework with a way to extend its internal components.
+
+        - How to implement
+            1.) Make all products follow the same interface. This interface should declare methods that make sense in every product.
+            2.) Add an empty factory method inside the creator class. The return type of the method should match the common product interface.
+            3.) In the craetor's code find all references to product constructors. One by One, replace them with calls to the factory method, 
+                while extracting the product creation code into the factory method.
+            4.) Now, create a set of creator subclasses for each type of product listed in the factory method. Override th factory method in the 
+                subclasses and extract the appropriate bits of constufction code from the base method.
+            5.) If there are too many product types and it doesn't make sense to create subclasses for all of them, you can reuse the control parameter
+                from the base class in subclasses.
+            
+        - Pros and cons 
+            + You avoid tight coupling between creator and concrete product.
+            + Single responsibility principle. You can move the product creation code into one place in the program, making the code easier to support.
+            + Open/Closed principle. You can introduce new types of products into the program without breaking existing client code.
+
+            - The code may become more complicated since you need to introduce a lot of new subclasses to implement the pattern. The best base scenario
+                is when you're introducing the pattern into an existing hierarchy of creator classes.
+
+        - Relations with Other patterns
+            * Many designs start by using Factory Method (less complicated and more customizable via subclasses) and evolve toward Abstract Factory, 
+                Prototype, or Builder (more flexible, but more complicated).
+            * Abstract Factory classes are often based on a set of Factory Method, but you can also use Prototype to compose the methods on these classes.
+            * You can use Factory Method along with Iterator to let collection subclases return different typesa of iterators that are compatible with the collections
+            * Prototype isn't based on inheritance, so it doesn't have its drawbacks. On the other hand, Prototype requires a complicated initialization of 
+                the cloned object. Factory Method is based on inheritance but doesn't require an initialization step.
+            * Factory Method is a specialization of Tempalte Method. At the same time, Factory Method may serve as a step in a large Tempalte Method.
+
+
+        Psudo-Code:
+
+        // The creator class declares the factory method that must return an obj of a product class.
+        // The creator's subclasses usually provide the implementation of this method.
+        class Dialog is
+            // The creator may also provide some default implement of the factory method.
+            abstract method createButton():Button 
+
+            // Note that, despite its name, the creat's primary responsibility isn't creating products. It usually contains some core business logic
+            //   that relies on product objects return by the factory method. Subclasses can indirectly change that business logic by overriding the factory
+            //   method and returning a different type of product from it.
+            method render() is
+                // Call the factory method to create a product obj 
+                Button okButton = createButton() 
+                // Now use the product.
+                okButton.onClick(closeDialog)
+                okButton.render()
+
+        // Concrete creators override the factory method to change the resulting product's type.
+        class WindowsDialog extends Dialog is
+            method createButton():Button is 
+                return new WindowsButton()
+        
+        class WebDialog extends Dialog is
+            method createButton():Button is 
+                return new HTMLButton()
+
+        // The product interface declares the operations that all concrete products must implement. 
+        interface Button is 
+            method render()
+            method onClick(f)
+
+        // Concrete products provide various implementation of the product interface.
+        class WindowsButton implement Button is 
+            method render(a, b) is 
+                // Render a button in Windows style.
+            method onClick(f) is 
+                // Bind a native OS click event 
+
+        class HTMLButton implements Button is 
+            method render(a, b) is 
+            // Return an HTML representation of a button.
+            method onClick(f) is 
+            // Bind a web browser click event.
+
+        
+        class Application is 
+            field dialog: Dialog 
+
+            // The app picks a creator's type depending on the current conf. or environment settings.
+            method initialize() is 
+                config = readApplicationConfigFile()
+
+                if (config.OS == "Windows") then   
+                    dialog = new WindowsDialog()
+                else if (config.OS == "Web") then 
+                    disloag = new WebDialog()
+                else 
+                    throw new Exception("Error! Unknown Operating systems.")
+            
+            // The client code works with an instance of a concrete creator, albeit through its base interface.
+            // As long as the client keeps working with the creator via the base interface, you can pass it any creator's subclasses 
+            method main() is 
+                this.initialize()
+                dialog.render()
+
+=======================================================================================================================================================
