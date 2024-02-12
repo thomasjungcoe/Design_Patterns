@@ -1,0 +1,15 @@
+C:\Users\thoma\Desktop\projects\Design Pattern\Creational_Patterns\Abstract_Factory\abs_fac\bin\Debug\net8.0\abs_fac.exe
+C:\Users\thoma\Desktop\projects\Design Pattern\Creational_Patterns\Abstract_Factory\abs_fac\bin\Debug\net8.0\abs_fac.deps.json
+C:\Users\thoma\Desktop\projects\Design Pattern\Creational_Patterns\Abstract_Factory\abs_fac\bin\Debug\net8.0\abs_fac.runtimeconfig.json
+C:\Users\thoma\Desktop\projects\Design Pattern\Creational_Patterns\Abstract_Factory\abs_fac\bin\Debug\net8.0\abs_fac.dll
+C:\Users\thoma\Desktop\projects\Design Pattern\Creational_Patterns\Abstract_Factory\abs_fac\bin\Debug\net8.0\abs_fac.pdb
+C:\Users\thoma\Desktop\projects\Design Pattern\Creational_Patterns\Abstract_Factory\abs_fac\obj\Debug\net8.0\abs_fac.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thoma\Desktop\projects\Design Pattern\Creational_Patterns\Abstract_Factory\abs_fac\obj\Debug\net8.0\abs_fac.AssemblyInfoInputs.cache
+C:\Users\thoma\Desktop\projects\Design Pattern\Creational_Patterns\Abstract_Factory\abs_fac\obj\Debug\net8.0\abs_fac.AssemblyInfo.cs
+C:\Users\thoma\Desktop\projects\Design Pattern\Creational_Patterns\Abstract_Factory\abs_fac\obj\Debug\net8.0\abs_fac.csproj.CoreCompileInputs.cache
+C:\Users\thoma\Desktop\projects\Design Pattern\Creational_Patterns\Abstract_Factory\abs_fac\obj\Debug\net8.0\abs_fac.sourcelink.json
+C:\Users\thoma\Desktop\projects\Design Pattern\Creational_Patterns\Abstract_Factory\abs_fac\obj\Debug\net8.0\abs_fac.dll
+C:\Users\thoma\Desktop\projects\Design Pattern\Creational_Patterns\Abstract_Factory\abs_fac\obj\Debug\net8.0\refint\abs_fac.dll
+C:\Users\thoma\Desktop\projects\Design Pattern\Creational_Patterns\Abstract_Factory\abs_fac\obj\Debug\net8.0\abs_fac.pdb
+C:\Users\thoma\Desktop\projects\Design Pattern\Creational_Patterns\Abstract_Factory\abs_fac\obj\Debug\net8.0\abs_fac.genruntimeconfig.cache
+C:\Users\thoma\Desktop\projects\Design Pattern\Creational_Patterns\Abstract_Factory\abs_fac\obj\Debug\net8.0\ref\abs_fac.dll
