@@ -1,0 +1,15 @@
+C:\Users\thoma\Desktop\projects\Design Pattern\Creational_Patterns\Builder\BuilderCSharp\bin\Debug\net8.0\BuilderCSharp.exe
+C:\Users\thoma\Desktop\projects\Design Pattern\Creational_Patterns\Builder\BuilderCSharp\bin\Debug\net8.0\BuilderCSharp.deps.json
+C:\Users\thoma\Desktop\projects\Design Pattern\Creational_Patterns\Builder\BuilderCSharp\bin\Debug\net8.0\BuilderCSharp.runtimeconfig.json
+C:\Users\thoma\Desktop\projects\Design Pattern\Creational_Patterns\Builder\BuilderCSharp\bin\Debug\net8.0\BuilderCSharp.dll
+C:\Users\thoma\Desktop\projects\Design Pattern\Creational_Patterns\Builder\BuilderCSharp\bin\Debug\net8.0\BuilderCSharp.pdb
+C:\Users\thoma\Desktop\projects\Design Pattern\Creational_Patterns\Builder\BuilderCSharp\obj\Debug\net8.0\BuilderCSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thoma\Desktop\projects\Design Pattern\Creational_Patterns\Builder\BuilderCSharp\obj\Debug\net8.0\BuilderCSharp.AssemblyInfoInputs.cache
+C:\Users\thoma\Desktop\projects\Design Pattern\Creational_Patterns\Builder\BuilderCSharp\obj\Debug\net8.0\BuilderCSharp.AssemblyInfo.cs
+C:\Users\thoma\Desktop\projects\Design Pattern\Creational_Patterns\Builder\BuilderCSharp\obj\Debug\net8.0\BuilderCSharp.csproj.CoreCompileInputs.cache
+C:\Users\thoma\Desktop\projects\Design Pattern\Creational_Patterns\Builder\BuilderCSharp\obj\Debug\net8.0\BuilderCSharp.sourcelink.json
+C:\Users\thoma\Desktop\projects\Design Pattern\Creational_Patterns\Builder\BuilderCSharp\obj\Debug\net8.0\BuilderCSharp.dll
+C:\Users\thoma\Desktop\projects\Design Pattern\Creational_Patterns\Builder\BuilderCSharp\obj\Debug\net8.0\refint\BuilderCSharp.dll
+C:\Users\thoma\Desktop\projects\Design Pattern\Creational_Patterns\Builder\BuilderCSharp\obj\Debug\net8.0\BuilderCSharp.pdb
+C:\Users\thoma\Desktop\projects\Design Pattern\Creational_Patterns\Builder\BuilderCSharp\obj\Debug\net8.0\BuilderCSharp.genruntimeconfig.cache
+C:\Users\thoma\Desktop\projects\Design Pattern\Creational_Patterns\Builder\BuilderCSharp\obj\Debug\net8.0\ref\BuilderCSharp.dll
