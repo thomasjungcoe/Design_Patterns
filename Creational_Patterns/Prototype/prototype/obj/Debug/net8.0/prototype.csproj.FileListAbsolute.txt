@@ -1,0 +1,15 @@
+C:\Users\thoma\Desktop\projects\Design Pattern\Creational_Patterns\Prototype\prototype\obj\Debug\net8.0\prototype.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thoma\Desktop\projects\Design Pattern\Creational_Patterns\Prototype\prototype\obj\Debug\net8.0\prototype.AssemblyInfoInputs.cache
+C:\Users\thoma\Desktop\projects\Design Pattern\Creational_Patterns\Prototype\prototype\obj\Debug\net8.0\prototype.AssemblyInfo.cs
+C:\Users\thoma\Desktop\projects\Design Pattern\Creational_Patterns\Prototype\prototype\obj\Debug\net8.0\prototype.csproj.CoreCompileInputs.cache
+C:\Users\thoma\Desktop\projects\Design Pattern\Creational_Patterns\Prototype\prototype\obj\Debug\net8.0\prototype.sourcelink.json
+C:\Users\thoma\Desktop\projects\Design Pattern\Creational_Patterns\Prototype\prototype\bin\Debug\net8.0\prototype.exe
+C:\Users\thoma\Desktop\projects\Design Pattern\Creational_Patterns\Prototype\prototype\bin\Debug\net8.0\prototype.deps.json
+C:\Users\thoma\Desktop\projects\Design Pattern\Creational_Patterns\Prototype\prototype\bin\Debug\net8.0\prototype.runtimeconfig.json
+C:\Users\thoma\Desktop\projects\Design Pattern\Creational_Patterns\Prototype\prototype\bin\Debug\net8.0\prototype.dll
+C:\Users\thoma\Desktop\projects\Design Pattern\Creational_Patterns\Prototype\prototype\bin\Debug\net8.0\prototype.pdb
+C:\Users\thoma\Desktop\projects\Design Pattern\Creational_Patterns\Prototype\prototype\obj\Debug\net8.0\prototype.dll
+C:\Users\thoma\Desktop\projects\Design Pattern\Creational_Patterns\Prototype\prototype\obj\Debug\net8.0\refint\prototype.dll
+C:\Users\thoma\Desktop\projects\Design Pattern\Creational_Patterns\Prototype\prototype\obj\Debug\net8.0\prototype.pdb
+C:\Users\thoma\Desktop\projects\Design Pattern\Creational_Patterns\Prototype\prototype\obj\Debug\net8.0\prototype.genruntimeconfig.cache
+C:\Users\thoma\Desktop\projects\Design Pattern\Creational_Patterns\Prototype\prototype\obj\Debug\net8.0\ref\prototype.dll
